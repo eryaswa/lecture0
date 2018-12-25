@@ -53,6 +53,10 @@ def square(x):
     return x * x
 for i in range(10):
     print('{} squared is {}'.format(i, square(i)))
+    
+#modules
+from functions import square
+print(square(10))
 
 #classes
 class point:
