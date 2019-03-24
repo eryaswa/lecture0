@@ -1,0 +1,7 @@
+library(arules)
+options(max.print=1000)
+transaksi <- read.transactions(file="C:/Works/Product/DQLab/Challenges/DQLab-challenge-01-apriori/data_transaksi.txt", format="single", sep="\t", cols=c(1,2), skip=1)
+inspect(transaksi)
+mba <- apriori(transaksi, parameter= list(supp=0.1, conf=0.1))
+jawaban <-subset(mba, support > 0.1666667 & lift > 1)
+inspect(jawaban)

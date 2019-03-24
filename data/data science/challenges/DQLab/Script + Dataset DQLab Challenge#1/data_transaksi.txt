@@ -1,0 +1,25 @@
+Kode Transaksi	Item
+#01	Pulpen
+#01	Kertas HVS
+#01	Kalkulator
+#01	Buku Tulis
+#02	Kertas HVS
+#02	Pulpen
+#02	Clip Kertas
+#03	Staples
+#03	Clip Kertas
+#03	Kertas HVS
+#03	Penggaris
+#03	Pulpen
+#04	Korek Api
+#04	Highlighter
+#04	Penggaris
+#04	Pulpen
+#05	Pulpen
+#05	Buku Tulis
+#05	Penggaris
+#06	Korek Api
+#06	Pulpen
+#06	Buku Tulis
+#06	Kertas HVS
+#06	Penghapus
